@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 📝 Task Manager App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este proyecto es una aplicación móvil de gestión de tareas desarrollada con **React Native** y **Expo**.  
+Permite **crear, visualizar y gestionar tareas** con categorías, prioridades y opciones adicionales como marcar tareas recurrentes.  
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Características principales
 
-   ```bash
-   npm install
-   ```
+- 📌 **Agregar tareas** con:
+  - Nombre de la tarea
+  - Nivel de prioridad (Alta, Media, Baja)
+  - Categoría seleccionable (Trabajo, Personal, Compras)
+  - Opción de marcar si es **recurrente**
+- 📋 **Visualización de tareas** en tarjetas (`CardScreen`)
+- 🔍 **Pantalla de detalles** (`DetailsScreen`) para ver la información completa de una tarea
+- ✅ Navegación fluida entre pantallas gracias a **React Navigation**
+- 🎨 Estilo moderno utilizando **React Native Paper** y componentes personalizados
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tecnologías utilizadas
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
+- [Expo Checkbox](https://docs.expo.dev/versions/latest/sdk/checkbox/)
+- [@react-native-picker/picker](https://github.com/react-native-picker/picker)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📂 Estructura del proyecto
 
 ```bash
-npm run reset-project
-```
+📦 TaskManagerApp
+ ┣ 📂 app
+ ┃ ┣ 📜 index.tsx        # Configuración de navegación principal
+ ┣ 📂 screens
+ ┃ ┣ 📜 AddTaskScreen.tsx  # Formulario para agregar tareas
+ ┃ ┣ 📜 CardScreen.tsx     # Lista/tarjeta de tareas con navegación
+ ┃ ┣ 📜 DetailsScreen.tsx  # Detalles de cada tarea
+ ┣ 📜 package.json
+ ┣ 📜 README.md
+ ┗ 📜 App.tsx (opcional según configuración de Expo)
+git clone https://github.com/tu-usuario/TaskManagerApp.git
+cd TaskManagerApp
+npm install
+yarn install
+npm install @react-navigation/native @react-navigation/native-stack
+npm install react-native-paper
+npm install @react-native-picker/picker
+expo install expo-checkbox
+npx expo start
+expo start
+<img width="1919" height="991" alt="Captura de pantalla 2025-09-14 204431" src="https://github.com/user-attachments/assets/e3b75683-1389-4890-813e-d0bff96c6462" />
+<img width="1915" height="1000" alt="Captura de pantalla 2025-09-14 204443" src="https://github.com/user-attachments/assets/590bb762-0d42-4180-a619-39150690ed7c" />
+<img width="1917" height="856" alt="Captura de pantalla 2025-09-14 204450" src="https://github.com/user-attachments/assets/11e95029-7cde-4e7c-be3c-be4fa1c60f4e" />
+<img width="1919" height="429" alt="Captura de pantalla 2025-09-14 204501" src="https://github.com/user-attachments/assets/49aa346e-54ea-4902-9692-3cdc91a83cbf" />
+<img width="1919" height="1079" alt="Captura de pantalla 2025-09-14 185532" src="https://github.com/user-attachments/assets/1ac6f0db-e9d2-4757-a7b3-1a358bd21d46" />
+<img width="1919" height="884" alt="Captura de pantalla 2025-09-14 204307" src="https://github.com/user-attachments/assets/038a41f3-0516-4deb-be50-621aa8da66d0" />
+<img width="1919" height="1016" alt="Captura de pantalla 2025-09-14 204335" src="https://github.com/user-attachments/assets/bebb7110-c85a-4c23-91e8-bd59eee07ea0" />
+<img width="32" height="1" alt="Captura de pantalla 2025-09-14 204426" src="https://github.com/user-attachments/assets/485b17d9-9a20-4bf7-9739-a0f2b30fecf6" />
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
