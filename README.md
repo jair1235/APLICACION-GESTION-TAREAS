@@ -53,12 +53,25 @@ npm install @react-native-picker/picker
 expo install expo-checkbox
 npx expo start
 expo start
-<img width="1919" height="429" alt="Captura de pantalla 2025-09-14 204501" src="https://github.com/user-attachments/assets/ceb384e7-d6fe-497a-9d07-68fdb0916bce" />
-<img width="1917" height="856" alt="Captura de pantalla 2025-09-14 204450" src="https://github.com/user-attachments/assets/2429933c-11e1-413c-8466-6358e1bd9f7a" />
-<img width="1915" height="1000" alt="Captura de pantalla 2025-09-14 204443" src="https://github.com/user-attachments/assets/a8a65849-516d-4cdf-9396-7705180b6697" />
-<img width="1919" height="1016" alt="Captura de pantalla 2025-09-14 204335" src="https://github.com/user-attachments/assets/cdc2f5e9-aedf-40f7-adfa-02067ffd9458" />
-<img width="1919" height="884" alt="Captura de pantalla 2025-09-14 204307" src="https://github.com/user-attachments/assets/d895ae33-a92d-416a-b70d-6b7733945b1e" />
-<img width="1919" height="1079" alt="Captura de pantalla 2025-09-14 185532" src="https://github.com/user-attachments/assets/3b241b19-9f54-4ef4-8062-d8e7c6e671f0" />
+## 📸 Capturas de pantalla
+
+### Pantalla de inicio
+![Captura de pantalla 2025-09-14 204501](https://github.com/user-attachments/assets/ceb384e7-d6fe-497a-9d07-68fdb0916bce)
+
+### Vista principal
+![Captura de pantalla 2025-09-14 204450](https://github.com/user-attachments/assets/2429933c-11e1-413c-8466-6358e1bd9f7a)
+
+### Otra sección
+![Captura de pantalla 2025-09-14 204443](https://github.com/user-attachments/assets/a8a65849-516d-4cdf-9396-7705180b6697)
+
+### Ejemplo adicional
+![Captura de pantalla 2025-09-14 204335](https://github.com/user-attachments/assets/cdc2f5e9-aedf-40f7-adfa-02067ffd9458)
+
+### Configuración
+![Captura de pantalla 2025-09-14 204307](https://github.com/user-attachments/assets/d895ae33-a92d-416a-b70d-6b7733945b1e)
+
+### Módulo extra
+![Captura de pantalla 2025-09-14 185532](https://github.com/user-attachments/assets/3b241b19-9f54-4ef4-8062-d8e7c6e671f0)
 
 
 
